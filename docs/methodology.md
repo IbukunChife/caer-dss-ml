@@ -60,7 +60,7 @@ Applied to Random Forest and XGBoost to quantify each variable's contribution.
 | Variable | Mean SHAP |
 |----------|-----------|
 | Cor Aparente | 0.391 |
-| Turbidez | 0.284 |
+| Turbidez | 0.165 |
 | Período Chuvoso | 0.198 |
 | pH | 0.087 |
 | Mês | 0.040 |

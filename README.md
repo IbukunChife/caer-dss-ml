@@ -79,7 +79,7 @@ Predictive framework validated by Leave-One-Out Cross-Validation (LOOCV):
 - **Ridge Regression** — linear interpretable baseline
 - **Random Forest** — best performance: MAE = 1.99 mg/L, RMSE = 3.00 mg/L
 - **XGBoost** — MAE = 2.23 mg/L, RMSE = 3.18 mg/L
-- **SHAP** explanability: Apparent Color (0.391) > Turbidity (0.284) > Rainy Season (0.198)
+- **SHAP** explanability: Apparent Color (0.391) > Turbidity (0.165) > Month (0.201) > pH (0.094)
 - Exports trained models as `.pkl` for use in the MVP app
 
 ### Module 4 — DSS MVP App (`04_app_dss_mvp.py`)
