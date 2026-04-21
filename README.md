@@ -6,6 +6,22 @@
 
 ---
 
+## Visual Overview / Visão Geral
+
+### DSS Architecture / Arquitetura do DSS
+![Arquitetura DSS](results/figures/arch_dss_modules.png)
+
+### ML Pipeline Flow / Fluxo do Pipeline ML
+![Pipeline ML](results/figures/ml_pipeline_fluxo.png)
+
+### Digitalization Gap Diagnosis / Diagnóstico da Lacuna Digital
+![Lacuna Digital](results/figures/diagnostico_lacuna_digital.png)
+
+### Model Performance / Desempenho dos Modelos
+![Métricas](results/figures/resumo_metricas.png)
+
+---
+
 ## About / Sobre
 
 This project is the technical output of a graduate monograph (Lato Sensu Specialization in Applied Computing for Industry 4.0 — UFRR) authored by **Ibukun Chife Didier Adjitche**, under supervision of **Prof. Leandro Nelinho Balico**.
@@ -147,6 +163,24 @@ See `data/README.md` for full details.
 > Negative R² values confirm the digitalization gap diagnosis — not model failure. With n ≥ 100 real dosage samples, positive R² is expected.
 
 Generated figures are available in `results/figures/`.
+
+### Explanatory Figures / Gráficos Explicativos
+
+| Figure | Description |
+|--------|-------------|
+| `arch_dss_modules.png` | DSS architecture — 3 modules |
+| `ml_pipeline_fluxo.png` | ML pipeline flow |
+| `diagnostico_lacuna_digital.png` | Digitalization gap diagnosis |
+| `resumo_metricas.png` | Model performance summary |
+| `01_eda_distribuicoes_series.png` | EDA — time series distributions |
+| `01b_sazonalidade_boxplot.png` | Amazonian seasonality boxplot |
+| `02_heatmap_correlacao.png` | Pearson correlation heatmap |
+| `04_real_vs_predito.png` | Real vs. predicted (LOOCV) |
+| `07_shap_summary_rf.png` | SHAP summary — Random Forest |
+| `09_shap_summary_xgb.png` | SHAP summary — XGBoost |
+| `11_shap_comparativo.png` | SHAP comparative — RF vs XGBoost |
+
+> To regenerate explanatory figures: `python src/gerar_graficos_explicativos.py`
 
 ---
 
