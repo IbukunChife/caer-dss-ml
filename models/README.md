@@ -20,5 +20,9 @@ python src/03_ml_pipeline.py
 
 ## Nota sobre os modelos pré-treinados
 
-Os arquivos `.pkl` **não estão incluídos** no repositório (ver `.gitignore`) por serem binários grandes.
-Execute o pipeline para regenerá-los localmente.
+Os arquivos `.pkl` estão incluídos no repositório para reprodutibilidade imediata.
+Para regenerá-los a partir dos dados brutos, execute:
+
+```bash
+python src/03_ml_pipeline.py
+```

@@ -14,8 +14,8 @@ data/*.csv
 data/*.xlsx
 data/*.xls
 
-# Models (large binaries — regenerate with pipeline)
-models/*.pkl
+# Models — incluídos no repo (binários pequenos, <400 KB)
+# models/*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
